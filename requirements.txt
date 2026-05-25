@@ -48,7 +48,7 @@ hiredis==2.2.3
 prometheus-client==0.19.0
 
 # Dashboard (if running Python backend)
-jinja2==3.1.2
+jinja2==3.1.6
 
 # Date/time utilities
 python-dateutil==2.8.2
