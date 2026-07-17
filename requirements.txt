@@ -58,4 +58,5 @@ pytz==2026.2
 cryptography==49.0.0
 passlib==1.7.4
 python-jose[cryptography]==3.5.0
+ecdsa>=0.13.3  # CVE-2019-14859 (transitive via python-jose)
 
