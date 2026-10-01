@@ -1,16 +1,16 @@
 # Core dependencies
-fastapi==0.141.1
-uvicorn[standard]==0.53.0
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
 pydantic==2.13.5
-python-dotenv==1.2.3
+python-dotenv==1.2.4
 
 # Database
 psycopg2-binary==2.9.13
-sqlalchemy==2.0.53
+sqlalchemy==2.1.1
 alembic==1.20.0
 
 # Data processing
-pandas==3.0.5
+pandas==3.0.6
 numpy==2.5.3
 
 # Async support
@@ -30,19 +30,19 @@ pytest==9.1.1
 pytest-asyncio==1.4.0
 pytest-cov==7.1.0
 httpx==0.28.1
-faker==40.39.0
-locust==2.46.5
+faker==40.40.0
+locust==2.46.6
 
 # Development tools
 black==26.5.1
-isort==9.0.1
-flake8==7.3.0
+isort==9.0.2
+flake8==7.4.1
 mypy==2.3.1
 pre-commit==4.6.2
 
 # Optional: Redis for caching
 redis==8.1.0
-hiredis==3.4.1
+hiredis==3.4.2
 
 # Optional: Prometheus metrics
 prometheus-client==0.26.0
@@ -52,11 +52,10 @@ jinja2==3.1.6
 
 # Date/time utilities
 python-dateutil==2.9.0.post0
-pytz==2026.3.post1
+pytz==2026.4
 
 # Security
-cryptography==50.0.1
+cryptography==50.0.2
 passlib==1.7.4
 python-jose[cryptography]==3.5.0
 ecdsa>=0.13.3  # CVE-2019-14859 (transitive via python-jose)
-
